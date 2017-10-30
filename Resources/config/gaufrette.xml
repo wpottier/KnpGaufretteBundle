@@ -47,7 +47,7 @@
             <argument /><!-- ttl -->
         </service>
         <service id="knp_gaufrette.adapter.cache" class="Gaufrette\Adapter\Cache" abstract="true" public="false" />
-        <service id="knp_gaufrette.filesystem_map" class="%knp_gaufrette.filesystem_map.class%">
+        <service id="knp_gaufrette.filesystem_map" class="%knp_gaufrette.filesystem_map.class%" public="true">
             <argument /> <!-- map of filesystems -->
         </service>
         <service id="knp_gaufrette.adapter.dropbox" class="Gaufrette\Adapter\Dropbox" abstract="true" public="false" />
